@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color:antiquewhite;
+    margin: 0;
+    align-items: center;
+}
+.header{
+    max-width: 100%;
+    height: 200px;
+    box-shadow: 0px 0px 100px 10px;
+    background-color: whitesmoke;
+    position: relative;
+    display: block;
+}
+.main_header{
+
+    width: auto;
+    height: auto;
+}
+.top_header{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    border: 5px;
+    border-color: #ff2a2a;
+    display: block;
+}
+.container{
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    margin: 0px 181px;
+    padding: 0px 0px;
+    display: inline;
+}
+
+/*----قسمت راست هدر تاپ----*/
+
+.rightnav_topheader{
+    justify-content:flex-start;
+    display: inline;
+    box-sizing: border-box;
+    width: fit-content;
+}
+.rightnav1_topheader{
+    opacity: 1;
+    display: inline;
+}
+.rightnav1_ul_li:hover{
+    opacity: 0.7;
+}
+.rightnav1_topheader ul li{
+    list-style-type: none;
+}
+#rightnav1_ul_li ul{
+    padding-right: 0px;
+    margin-top: 10px;
+}
+#rightnav1_ul_li ul li{
+    opacity: 0;
+    padding-right: 20px;
+    box-shadow: 0px 0px 500px 1px;
+    border: 6px;
+}
+#rightnav1_ul_li:hover ul li{
+    opacity: 1;
+    transition: 0.5s;
+    background-color: #fd0000;
+    width: 80px;
+    height: 30px;
+}
+/*---- استایل همه تگ های a ----*/
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: medium;
+}
+/* قسمت میانی بخش بالایی هدر */
+
+.middletext_topheader{
+    color: rgb(0, 136, 255);
+    display: inline;
+    align-items: center;
+    vertical-align: baseline;
+    width: fit-content;
+}
